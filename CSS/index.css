@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+h1 {
+    text-align: center;
+    line-height: 100px;
+}
+.allContainer {
+    border: 2px solid black;
+    width: 1200px;
+    height: 375px;
+    margin: 0 auto;
+    background-color: white;
+}
+.upArea {
+    /* border: 1px solid black; */
+    height: 112.5px;
+    width: 1200px;
+}
+.lineContainer {
+    float: left;
+    width: 240px;
+    height: 112.5px;
+    overflow: hidden;
+    display: flex;
+    position: relative;
+    
+}
+#line {
+    /* border: 1px solid black; */
+    /* float: left; */
+    width: 240px;
+    height: 112.5px;
+    font-size: 75px;
+    line-height: 112.5px;
+    text-align: center;
+    color: #007DC4;
+    display: inline-block;
+    white-space: nowrap;
+}
+
+.terminalContainer {
+    float: left;
+    /* border: 1px solid black; */
+    width: 490px;
+    height: 112.5px;
+    overflow: hidden;
+    display: flex;
+    position: relative;
+    left: 1em;
+}
+.to, #terminal {
+    float: left;
+    font-size: 60px;
+    line-height: 112.5px;
+    color: #187943;
+}
+#terminal{
+    /* border: 1px solid black; */
+    position: relative;
+    font-weight: 600;
+    width: 490px;
+    display: inline-block;
+    white-space: nowrap;
+}
+.contactInfo {
+    width: 340px;
+    height: 112.5px;
+    background-color: #187943;
+    clip-path: polygon(20% 0, 100% 0, 100% 100%, 0 100%);
+    float: right;
+    position: relative;
+}
+.logo {
+    position: relative;
+    left: 90px;
+    height: 20px;
+    top: 5px;
+}
+.company {
+    /* border: 1px solid black; */
+    height: 30px;
+    width: 230px;
+    line-height: 30px;
+    float: right;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    position: relative;
+    top: 5px;
+}
+.otherInfo {
+    /* border: 1px solid black; */
+    color: white;
+    width: 280px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    text-align: center;
+    line-height: 25px;
+    position: absolute; 
+    right: 0;
+}
+#lineTime {
+    font-weight: 700;
+}
+.otherInfoUp {
+    margin-top: 15px;
+}
+.otherInfoDown {
+    margin-top: 50px;
+    right: 15px;
+}
+
+.infoContainer {
+    position: relative;
+    width: 1200px;
+    height: 262.5px;
+    background-color: #8C8C8C;
+}
+.arrow {
+    width: 1125px;
+    margin: 0 auto;
+    position: relative;
+    top: 25px;
+}
+
+
+#stopIdContainer {
+    height: 20px;
+    width: 1100px;
+    margin: 0 auto;
+    position: relative;
+    top: 35px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.stopId {
+    /* color: #187943; */
+    color: white;
+    font-size: 14px;
+    height: 20px;
+    width: 30px;
+    text-align: center;
+    line-height: 20px;
+}
+#stopInfo {
+    height: 165px;
+    width: 1100px;
+    margin: 0 auto;
+    position: relative;
+    top: 40px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+}
+.stopName {
+    writing-mode: vertical-rl;
+    /* color: #187943; */
+    color: white;
+    font-size: 20px;
+    letter-spacing: 0.1em;
+    vertical-align: top;
+    height: 165px;
+    display: inline-block;
+    white-space: nowrap;
+}
+
+.scroll-up-animation {
+    animation: scrollUp 8s linear infinite;
+}
+
+@keyframes scrollUp {
+    from {
+        transform: translateY(100%);
+    }
+
+    to {
+        transform: translateY(-150%);
+    }
+}
+
+.scroll-left-animation {
+    animation: scrollLeft 8s linear infinite;
+}
+
+@keyframes scrollLeft {
+    from {
+        transform: translateX(100%);
+    }
+
+    to {
+        transform: translateX(-150%);
+    }
+}
+
+.buttonContainer {
+    margin: 0 auto;
+    text-align: center;
+  }
